@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:scrollbarStyle="outsideOverlay" 
+    	>
+    	<LinearLayout android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical">
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="60dp"
+	        android:background="@drawable/mm_listitem"
+	        > 
+		    <TextView
+		        android:id="@+id/title"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingLeft="10dp"
+		    	android:text="Meter Number: "  
+		    	android:textSize="20sp"  
+		        />
+		    <TextView
+		        android:id="@+id/title_meter_number"
+		        android:layout_toRightOf="@id/title"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:hint="here"
+		    	android:textSize="20sp"  
+		        />
+		    
+		    <TextView 
+		        android:id="@+id/title_recharge_amount"
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentBottom="true"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingLeft="10dp"
+		    	android:textSize="30sp"
+		    	android:textColor="#ff00dd22"
+		        />
+	    </RelativeLayout>
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Paypal Account"
+			android:padding="9dp"
+			android:textSize="18sp"
+			android:textColor="#ff222222"
+	        />
+	    <RelativeLayout      				    
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="14dp"
+			android:gravity="center_vertical"
+			android:clickable="true"
+			android:background="@drawable/preference_single_item" >
+			<TextView
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:padding="8dp" 
+				android:text="hexing***@gmail.com"
+				android:textSize="17sp"		
+				android:textColor="#000" /> 
+			<ImageView
+	  			android:layout_width="wrap_content"
+				android:layout_height="wrap_content"        	     	
+				android:scaleType="matrix"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:src="@drawable/mm_submenu" />      					
+		</RelativeLayout>
+		
+	    <TextView 
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Paypal Account Balance"
+			android:padding="9dp"
+			android:textSize="18sp"
+			android:textColor="#ff222222"
+	        />
+	    
+		<TextView
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:paddingRight="18dp" 
+			android:text="476.45"
+			android:textSize="24sp"		
+			android:textColor="#f00" /> 					
+		
+		<TextView 
+	        android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Pay Credit Card:"
+			android:padding="9dp"
+			android:textSize="18sp"
+			android:textColor="#ff222222"
+	        />
+	    <RelativeLayout      				    
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="14dp"
+			android:gravity="center_vertical"
+			android:clickable="true"
+			android:background="@drawable/preference_single_item" >
+			<TextView
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:padding="8dp" 
+				android:text="HSBC Credit Card(**4876)"
+				android:textSize="17sp"		
+				android:textColor="#000" /> 
+			<ImageView
+	  			android:layout_width="wrap_content"
+				android:layout_height="wrap_content"        	     	
+				android:scaleType="matrix"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:src="@drawable/checkbox" />      					
+		</RelativeLayout>
+		
+	    <RelativeLayout      				    
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="14dp"
+			android:gravity="center_vertical"
+			android:clickable="true"
+			android:background="@drawable/preference_single_item" >
+			<TextView
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:padding="8dp" 
+				android:hint="Paypal Password"
+				android:textSize="17sp"		
+				android:textColor="#000" />
+		</RelativeLayout>
+		
+	    <Button 
+			android:layout_width="fill_parent" 
+			android:layout_height="40dp"
+			android:layout_marginTop="14dp"
+			android:layout_marginBottom="14dp"
+			android:layout_marginLeft="12dp"
+			android:layout_marginRight="12dp"
+			android:padding="4dp" 
+			android:text="Pay"
+			android:textSize="18sp"		
+			android:textColor="#fff"
+			android:gravity="center"
+			android:background="@drawable/btn_style_green"
+			android:onClick="PaySucceed"
+	    />  
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

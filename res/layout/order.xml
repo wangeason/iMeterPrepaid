@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+    	android:layout_height="60dp"
+        android:background="@drawable/mm_listitem"
+        > 
+	    <TextView 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:gravity="center_vertical|center_horizontal"
+	    	
+	    	android:text="Order Number: 00003412"  
+	    	android:textSize="20sp"  
+	        />
+	    <!-- 
+	    <TextView 
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentBottom="true"
+	    	android:layout_alignParentLeft="true"
+	    	android:paddingLeft="10dp"
+	    	android:textSize="30sp"
+	    	android:text="User1"
+	    	android:textColor="#ffff0000"
+	        /> -->
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Meter Number"
+		android:padding="9dp"
+		android:textSize="18sp"
+		android:textColor="#ff222222"
+        />
+
+	<EditText
+	    android:id="@+id/meter_number"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:padding="8dp" 
+		android:layout_marginTop="25dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:singleLine="true"
+	    android:background="@drawable/abs__textfield_searchview_holo_light"
+		android:hint="input meter number here"
+		android:textSize="17sp"		
+		android:textColor="#000" /> 
+
+	
+    <TextView 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Recharge Amount"
+		android:padding="9dp"
+		android:textSize="18sp"
+		android:textColor="#ff222222"
+        />
+    
+	<EditText
+	    android:id="@+id/recharge_amount"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:padding="8dp" 
+		android:hint=""
+		android:layout_marginTop="25dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:singleLine="true"
+	    android:inputType="numberDecimal"
+	    android:background="@drawable/abs__textfield_searchview_holo_light"
+		android:textSize="17sp"		
+		android:textColor="#000" /> 					
+
+	
+	
+    <Button 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="14dp"
+		android:layout_marginBottom="14dp"
+		android:layout_marginLeft="12dp"
+		android:layout_marginRight="12dp"
+		android:padding="4dp" 
+		android:text="Next"
+		android:textSize="18sp"		
+		android:textColor="#fff"
+		android:gravity="center"
+		android:background="@drawable/btn_style_green"
+		android:onClick="GotoPaypal"
+		
+    />  
+
+</LinearLayout>

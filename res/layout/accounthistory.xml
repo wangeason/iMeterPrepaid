@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:scrollbarStyle="outsideOverlay" 
+    	>
+    	<LinearLayout android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical">
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	        android:background="@drawable/mm_listitem"
+	        android:orientation="vertical"
+	        > 
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginTop="3dp"
+		    	android:text="Recharge Meter Number: 014213413587"  
+		    	android:textSize="15sp"  
+		        />
+		    
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:text="Recharge Date: 2014/02/01"  
+		    	android:textSize="15sp"  
+		        />
+		    		    
+		    <TextView 
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentBottom="true"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginBottom="3dp"
+		    	android:text="Recharge Amount: 50"
+		    	android:textSize="15sp"
+		    	android:textColor="#ffff3300"
+		        />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	        android:background="@drawable/mm_listitem"
+	        android:orientation="vertical"
+	        > 
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginTop="3dp"
+		    	android:text="Recharge Meter Number: 014353467358"  
+		    	android:textSize="15sp"  
+		        />
+		    
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:text="Recharge Date: 2014/01/31"  
+		    	android:textSize="15sp"  
+		        />
+		    		    
+		    <TextView 
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentBottom="true"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginBottom="3dp"
+		    	android:text="Recharge Amount: 120"
+		    	android:textSize="15sp"
+		    	android:textColor="#ffff3300"
+		        />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	        android:background="@drawable/mm_listitem"
+	        android:orientation="vertical"
+	        > 
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginTop="3dp"
+		    	android:text="Recharge Meter Number: 013345689353"  
+		    	android:textSize="15sp"  
+		        />
+		    
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:text="Recharge Date: 2014/01/31"  
+		    	android:textSize="15sp"  
+		        />
+		    		    
+		    <TextView 
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentBottom="true"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginBottom="3dp"
+		    	android:text="Recharge Amount: 80"
+		    	android:textSize="15sp"
+		    	android:textColor="#ffff3300"
+		        />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	        android:background="@drawable/mm_listitem"
+	        android:orientation="vertical"
+	        > 
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginTop="3dp"
+		    	android:text="Recharge Meter Number: 014235639563"  
+		    	android:textSize="15sp"  
+		        />
+		    
+		    <TextView
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:text="Recharge Date: 2014/01/31"  
+		    	android:textSize="15sp"  
+		        />
+		    		    
+		    <TextView 
+		        android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentBottom="true"
+		    	android:layout_alignParentLeft="true"
+		    	android:paddingBottom="5dp"
+		    	android:paddingLeft="10dp"
+		    	android:layout_marginBottom="3dp"
+		    	android:text="Recharge Amount: 55"
+		    	android:textSize="15sp"
+		    	android:textColor="#ffff3300"
+		        />
+	    </LinearLayout>
+	    <Button 
+			android:layout_width="fill_parent" 
+			android:layout_height="40dp"
+			android:layout_marginTop="14dp"
+			android:layout_marginBottom="14dp"
+			android:layout_marginLeft="12dp"
+			android:layout_marginRight="12dp"
+			android:padding="4dp" 
+			android:text="Confirm"
+			android:textSize="18sp"		
+			android:textColor="#fff"
+			android:gravity="center"
+			android:background="@drawable/btn_style_green"
+			android:onClick="Confirm"
+	    />  
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
